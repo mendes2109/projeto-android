@@ -30,10 +30,10 @@ header > h1{
     padding: 30px 0 20px 0;
     margin: 0;
     font-family:var(--fonte-destaque);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 header > h5{
-    max-width: 400px;
+    max-width: 530px;
     font-size: 0.75em;
     margin: auto;
     padding: 0 10px 0 10px;
@@ -83,10 +83,6 @@ picture#bugdroid > img{
     margin: auto;
 }
 
-iframe{
-    width: 100%;
-}
-
 p > a{
     text-decoration: none;
     color: black;
@@ -114,11 +110,20 @@ main > h2{
     font-family: 'robo', sans-serif;
 }
 
-iframe{
+div.video{
     background-color: #0d5c27;
-    padding: 10px 20px;
-    height: 300px;
-    width: 460px;
+    margin: 0 -20px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 div#para_margen{
@@ -137,11 +142,7 @@ main > header{
     border-radius: 10px 10px 0 0;
 }
 
-div#fundo_aside{
-    padding: 15px;
-}
-
-div#fundo_aside > main{
+main.de_baixo{
     background-color: #c5ebd6;
     margin-top: 0;
     margin-bottom: 15px;
