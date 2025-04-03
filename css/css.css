@@ -33,7 +33,7 @@ header > h1{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
 }
 header > h5{
-    max-width: 530px;
+    max-width: 400px;
     font-size: 0.75em;
     margin: auto;
     padding: 0 10px 0 10px;
